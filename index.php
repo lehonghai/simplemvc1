@@ -14,6 +14,7 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
 require_once ROOT . DS . 'includes' . DS . 'common.php';
 require_once ROOT . DS . 'includes' . DS . 'db.php';
 require_once ROOT . DS . 'includes' . DS . 'path.php';
+require_once ROOT . DS . 'includes' . DS . 'gio_hang.php';
 
 $controller = empty($_GET['c']) ? 'index' : strtolower($_GET['c']);
 $method = empty($_GET['m']) ? 'index' : strtolower($_GET['m']);
